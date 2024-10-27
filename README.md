@@ -28,3 +28,60 @@ Each module folder includes a `Makefile` with common commands to format, lint, t
 ```bash
 make rust-version
 ```
+- **Format Code**:
+```bash
+make format
+```
+- **Lint Code**:
+```bash
+make lint
+```
+- **Run Tests**:
+```bash
+make test
+```
+- **Run Application**:
+```bash
+make run
+```
+- **Build for Release**:
+```bash
+make release
+```
+## Modules Overview
+
+### Module 1: Rust Data Structures
+Contains exercises to work with Rust's built-in data structures:
+
+- vector-fruit-salad
+- hashmap-count
+- btreeset-fruit
+
+### Module 2: Safety, Security, and Concurrency
+Explores Rust’s memory safety and concurrency:
+
+- mutable-fruit-salad
+- data-race-example
+- cli-customize-fruit-salad
+
+### Module 3: Data Engineering Libraries and Tools
+Uses Rust libraries for data handling:
+
+- csv-data-processing
+- database-interaction
+- data-visualization
+
+### Module 4: Advanced Applications
+Advanced projects for real-world Rust applications:
+
+- etl-pipeline
+- rest-api-server
+- machine-learning
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues, submit PRs, or suggest improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

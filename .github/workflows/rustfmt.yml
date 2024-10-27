@@ -3,7 +3,7 @@ name: Rustfmt
 on: [push, pull_request]
 
 jobs:
-  build:
+  format:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,5 +14,5 @@ jobs:
           profile: minimal
           components: clippy, rustfmt
           override: true
-      - name: Run rustfmt
-        run: make format-check
+      - name: Check Formatting
+        run: make format
