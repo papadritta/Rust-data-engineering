@@ -6,10 +6,10 @@ This repository contains projects and exercises for the **Rust Data Engineering*
 
 The repository is organized into modules, each representing a course topic:
 
-- **Module 1 - Rust Data Structures**: Exercises with collections like vectors, hash maps, and sets.
-- **Module 2 - Safety, Security, and Concurrency**: Focus on Rust's concurrency and memory safety features.
-- **Module 3 - Data Engineering Libraries and Tools**: Examples using libraries for data processing, API handling, and database interactions.
-- **Module 4 - Advanced Applications**: Projects on building ETL pipelines, web servers, and machine learning models.
+- **[Module 1 - Rust Data Structures](Module1-Rust-Data-Structures)**: Exercises with collections like vectors, hash maps, and sets.
+- **[Module 2 - Safety, Security, and Concurrency](Module2-Safety-Security-Concurrency)**: Focus on Rust's concurrency and memory safety features.
+- **[Module 3 - Data Engineering Libraries and Tools](Module3-Data-Engineering-Libraries-Tools)**: Examples using libraries for data processing, API handling, and database interactions.
+- **[Module 4 - Advanced Applications](Module4-Advanced-Applications)**: Projects on building ETL pipelines, web servers, and machine learning models.
 
 ## Getting Started
 
@@ -51,11 +51,20 @@ make release
 ## Modules Overview
 
 ### Module 1: Rust Data Structures
-Contains exercises to work with Rust's built-in data structures:
-
-- vector-fruit-salad
-- hashmap-count
-- btreeset-fruit
+Contains examples and exercises to work with Rust's built-in data structures:
+#### examples:
+- [vector-fruit-salad](Module1-Rust-Data-Structures/vector-fruit-salad)
+- [vecdeque-fruit-salad](Module1-Rust-Data-Structures/vecdeque-fruit-salad)
+- [linked-list-fruit-salad](Module1-Rust-Data-Structures/linked-list-fruit-salad)
+- [cli-salad](Module1-Rust-Data-Structures/cli-salad)
+- [hashmap-count](Module1-Rust-Data-Structures/hashmap-count)
+- [hashmap-language](Module1-Rust-Data-Structures/hashmap-language)
+#### exercises:
+- [grocery-list](Module1-Rust-Data-Structures/exercises/grocery-list)
+- [phone-book](Module1-Rust-Data-Structures/exercises/phone-book)
+- [queue-simulation](Module1-Rust-Data-Structures/exercises/queue-simulation)
+- [word-count](Module1-Rust-Data-Structures/exercises/word-count)
+- [rgb-colors](Module1-Rust-Data-Structures/exercises/rgb-colors)
 
 ### Module 2: Safety, Security, and Concurrency
 Explores Rust’s memory safety and concurrency:
