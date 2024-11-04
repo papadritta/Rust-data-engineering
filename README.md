@@ -1,4 +1,6 @@
+
 # Rust Data Engineering Course
+![366938608-5d41b6e5-bd41-4a5a-9f1c-50ec7e21ebfc](https://github.com/user-attachments/assets/44d3f44b-34e4-49da-b177-61182c7f8214)
 
 This repository contains projects and exercises for the **Rust Data Engineering** course. Each module covers a different aspect of Rust programming, focusing on data structures, concurrency, data engineering libraries, and advanced applications.
 
