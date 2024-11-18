@@ -1,7 +1,6 @@
 [package]
-name = "word_freq"
+name = "top_words"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-std = "0.1.0"
