@@ -1,0 +1,7 @@
+[package]
+name = "csv_stats"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1" # You can specify the version you need
