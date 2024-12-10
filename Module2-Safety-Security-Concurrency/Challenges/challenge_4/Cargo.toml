@@ -1,0 +1,9 @@
+[package]
+name = "challenge_4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"
+cipher = "0.4"
+rand = "0.8"
