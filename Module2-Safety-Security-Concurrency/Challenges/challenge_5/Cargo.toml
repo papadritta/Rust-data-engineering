@@ -1,0 +1,7 @@
+[package]
+name = "challenge_5"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha3 = "0.10" # Or the latest version available
