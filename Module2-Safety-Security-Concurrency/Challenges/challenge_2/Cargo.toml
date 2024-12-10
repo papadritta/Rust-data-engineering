@@ -1,0 +1,9 @@
+[package]
+name = "challenge_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+reqwest = { version = "0.12.9", features = ["json", "blocking", "stream"] }
+futures-util = "0.3.30"                                                     # Explicitly set a compatible version if necessary
